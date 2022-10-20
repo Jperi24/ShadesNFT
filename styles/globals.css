@@ -1,0 +1,492 @@
+/* html{
+}  */
+#inputBox{
+  position: absolute;
+  right:100px;
+  top: 350px;
+  background-color: #eff3f3;
+  border-radius: 25px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#toRight_notasmuch{
+  margin-left: 6%;
+  top:0%;
+}
+
+.withdraw{
+  position: absolute;
+  left:80px;
+  top: 420px;
+  height: 70px;
+  border-radius: 25px;
+  background-color: #120202;
+  border:none;
+  color:white;
+  font-family: "PermanentMarker",truetype;
+}
+.mint{
+  position: absolute;
+  right:80px;
+  top: 420px;
+  height: 70px;
+  border-radius: 25px;
+  background-color: #120202;
+  border:none;
+  color:white;
+  font-family: "PermanentMarker",truetype;
+
+}
+.withdraw2{
+  position: absolute;
+  left:50px;
+  top: 420px;
+  height: 70px;
+  border-radius: 25px;
+  background-color: #E9E9E9;
+
+  border:none;
+  font-family: "PermanentMarker",truetype;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: lime; /* Just to visualize the extent */
+  
+}
+
+
+
+
+
+@font-face {
+  font-family: 'PermanentMarker';
+  src: local('PermanentMarker'), url("../fonts/PermanentMarker-Regular.ttf") format('truetype'); 
+
+  
+
+}
+
+
+
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+
+.box .row.content {
+  flex: 1 1 auto;
+  /* background-color: #7b8787; */
+  background-color: #9db2b2;
+  margin-top: 0;
+  margin-left: 0;
+  top: 0;
+  height: 100%;
+}
+.box .row.content2 {
+  flex: 1 1 auto;
+  /* background-color: #7b8787; */
+  background-color: #d9d3bb;
+  margin-top: 0;
+  margin-left: 0;
+  top: auto;
+  height: 100%;
+  position:relative;
+}
+.socialLine{
+  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  right: 70%;
+
+}
+
+.social{
+  color:#393939;
+  transition: color 0.2s;
+  text-decoration: none;
+  
+}
+.social:hover{
+  color:#0cd2ec
+}
+h2 {
+  margin-left: 5%;
+  font-family: "PermanentMarker",cursive;
+  font-weight:10
+}
+a {
+  font-size: 30px;
+  margin-left: 5%;
+  font-family: "PermanentMarker",cursive;
+  font-weight:10
+}
+
+#center {
+  margin-left: 28%;
+
+}
+
+
+
+img {
+
+  width: 150px;
+  height: 150px;
+  border: 5px solid rgb(255, 255, 255);
+
+}
+
+
+.linedHorizon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  top: 130px;
+}
+
+.padded{
+  padding-right: 90px;
+}
+.linedHorizon2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  top: 290px;
+  right:40%;
+}
+.linedHorizon3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: left; 
+  top: 0px;
+  position:absolute;
+  left: 0;
+  right: 0;
+}
+
+#toRightt {
+  margin-left: 8%;
+}
+
+
+#toRight {
+  margin-left: 30%;
+}
+.vl {
+  border-left: 2px solid rgb(108, 107, 108);
+  height: 90px;
+}
+
+#totoRight {
+  margin-left: 70%;
+  position: absolute;
+  top: 40px;
+}
+
+@keyframes rainbow-text {
+  0% {
+    color: #e87d7d;
+  }
+
+  2% {
+    color: #e88a7d;
+  }
+
+  4% {
+    color: #e8977d;
+  }
+
+  6% {
+    color: #e8a47d;
+  }
+
+  8% {
+    color: #e8b07d;
+  }
+
+  10% {
+    color: #e8bd7d;
+  }
+
+  12% {
+    color: #e8ca7d;
+  }
+
+  14% {
+    color: #e8d77d;
+  }
+
+  16% {
+    color: #e8e47d;
+  }
+
+  18% {
+    color: #dfe87d;
+  }
+
+  20% {
+    color: #d3e87d;
+  }
+
+  22% {
+    color: #c6e87d;
+  }
+
+  24% {
+    color: #b9e87d;
+  }
+
+  26% {
+    color: #ace87d;
+  }
+
+  28% {
+    color: #9fe87d;
+  }
+
+  30% {
+    color: #92e87d;
+  }
+
+  32% {
+    color: #86e87d;
+  }
+
+  34% {
+    color: #7de881;
+  }
+
+  36% {
+    color: #7de88e;
+  }
+
+  38% {
+    color: #7de89b;
+  }
+
+  40% {
+    color: #7de8a8;
+  }
+
+  42% {
+    color: #7de8b5;
+  }
+
+  44% {
+    color: #7de8c1;
+  }
+
+  46% {
+    color: #7de8ce;
+  }
+
+  48% {
+    color: #7de8db;
+  }
+
+  50% {
+    color: #7de8e8;
+  }
+
+  52% {
+    color: #7ddbe8;
+  }
+
+  54% {
+    color: #7dcee8;
+  }
+
+  56% {
+    color: #7dc1e8;
+  }
+
+  58% {
+    color: #7db5e8;
+  }
+
+  60% {
+    color: #7da8e8;
+  }
+
+  62% {
+    color: #7d9be8;
+  }
+
+  64% {
+    color: #7d8ee8;
+  }
+
+  66% {
+    color: #7d81e8;
+  }
+
+  68% {
+    color: #867de8;
+  }
+
+  70% {
+    color: #927de8;
+  }
+
+  72% {
+    color: #9f7de8;
+  }
+
+  74% {
+    color: #ac7de8;
+  }
+
+  76% {
+    color: #b97de8;
+  }
+
+  78% {
+    color: #c67de8;
+  }
+
+  80% {
+    color: #d37de8;
+  }
+
+  82% {
+    color: #df7de8;
+  }
+
+  84% {
+    color: #e87de4;
+  }
+
+  86% {
+    color: #e87dd7;
+  }
+
+  88% {
+    color: #e87dca;
+  }
+
+  90% {
+    color: #e87dbd;
+  }
+
+  92% {
+    color: #e87db0;
+  }
+
+  94% {
+    color: #e87da4;
+  }
+
+  96% {
+    color: #e87d97;
+  }
+
+  98% {
+    color: #e87d8a;
+  }
+
+  100% {
+    color: #e87d7d;
+  }
+}
+
+.rainbow-text {
+  animation: rainbow-text 1s infinite;
+  position:absolute;
+  top:0px;
+  left:40%
+  
+}
+.rainbow-text2 {
+  animation: rainbow-text 2s infinite;
+}
+
+
+
+#enterButton{
+  position: absolute;
+  right:80px;
+  top: 340px;
+  height: 70px;
+  border-radius: 25px;
+  background-color: #120202;
+  border:none;
+  color:white;
+  font-family: "PermanentMarker",truetype;
+}
+
+
+.expired-notice {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+.expired-notice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.expired-notice > p {
+  font-size: 1.5rem;
+}
+h1{
+  font-family: "PermanentMarker",cursive;
+  font-weight: 100;
+}
+
+.largeFont{
+  font-size:60px;
+}
+
+.show-counter {
+  padding: 0.5rem;
+  
+}
+
+
+.show-counter .countdown-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0px;
+  /* border: 1px solid #ebebeb;
+  border-radius: 1px; */
+  text-decoration: none;
+  color: #000;
+}
+
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
